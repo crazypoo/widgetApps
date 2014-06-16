@@ -18,6 +18,8 @@
 		CCEF3EB5194EDAEE00AB4667 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEF3EB4194EDAEE00AB4667 /* TodayViewController.m */; };
 		CCEF3EB7194EDAEE00AB4667 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEF3EB6194EDAEE00AB4667 /* MainInterface.storyboard */; };
 		CCEF3EBA194EDAEE00AB4667 /* com.crazykidhao.widgetApps.myWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CCEF3EAC194EDAEE00AB4667 /* com.crazykidhao.widgetApps.myWidget.appex */; };
+		CCEF3EC2194EE67200AB4667 /* 客户名称icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEF3EC1194EE67200AB4667 /* 客户名称icon@2x.png */; };
+		CCEF3EC3194EE67200AB4667 /* 客户名称icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEF3EC1194EE67200AB4667 /* 客户名称icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,7 @@
 		CCEF3EB3194EDAEE00AB4667 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		CCEF3EB4194EDAEE00AB4667 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		CCEF3EB6194EDAEE00AB4667 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		CCEF3EC1194EE67200AB4667 /* 客户名称icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "客户名称icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		CCEF3E77194ED8E800AB4667 = {
 			isa = PBXGroup;
 			children = (
+				CCEF3EC1194EE67200AB4667 /* 客户名称icon@2x.png */,
 				CCEF3EA6194ED8F300AB4667 /* NotificationCenter.framework */,
 				CCEF3E82194ED8E800AB4667 /* widgetApps */,
 				CCEF3E99194ED8E900AB4667 /* widgetAppsTests */,
@@ -300,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEF3EC2194EE67200AB4667 /* 客户名称icon@2x.png in Resources */,
 				CCEF3E8F194ED8E800AB4667 /* Main.storyboard in Resources */,
 				CCEF3E91194ED8E800AB4667 /* Images.xcassets in Resources */,
 			);
@@ -317,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCEF3EB7194EDAEE00AB4667 /* MainInterface.storyboard in Resources */,
+				CCEF3EC3194EE67200AB4667 /* 客户名称icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +572,7 @@
 				CCEF3EA2194ED8E900AB4667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCEF3EA3194ED8E900AB4667 /* Build configuration list for PBXNativeTarget "widgetAppsTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +581,7 @@
 				CCEF3EA5194ED8E900AB4667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCEF3EBD194EDAEE00AB4667 /* Build configuration list for PBXNativeTarget "myWidget" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +590,7 @@
 				CCEF3EBF194EDAEE00AB4667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

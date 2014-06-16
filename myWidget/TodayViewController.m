@@ -26,13 +26,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+//    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(IBAction)hahahahah:(id)sender
+{
+    UIAlertView *alview = [[UIAlertView alloc] initWithTitle:@"asd" message:@"asd" delegate:self cancelButtonTitle:@"asd" otherButtonTitles:nil, nil];
+    [alview show];
+}
 - (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler {
     // Perform any setup necessary in order to update the view.
     
